@@ -1,0 +1,27 @@
+@import "./variables";
+
+.custom_grid {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    width: 100%;
+}
+.col {
+    border: 5px solid;
+    text-align: center;
+    color: white;
+}
+.bg_img {
+    height: 400px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+}
+#grid-1{
+    background-color: $primary_color;
+}
+#grid-2 {
+    background-color: $secondary_color;
+}
+#grid-3 {
+    background-color: $third-color;
+}

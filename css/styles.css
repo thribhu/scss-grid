@@ -1,0 +1,33 @@
+.custom_grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 2fr 1fr;
+      grid-template-columns: 2fr 2fr 1fr;
+  width: 100%;
+}
+
+.col {
+  border: 5px solid;
+  text-align: center;
+  color: white;
+}
+
+.bg_img {
+  height: 400px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+#grid-1 {
+  background-color: #112222;
+}
+
+#grid-2 {
+  background-color: #524c9e;
+}
+
+#grid-3 {
+  background-color: #d14040;
+}
+/*# sourceMappingURL=styles.css.map */
